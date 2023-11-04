@@ -8,11 +8,12 @@ import {
   FaPhone,
   FaInstagram,
   FaTiktok,
+  FaBars,
 } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="footer-container">
       <FaFacebook color="blue" />
       <FaLinkedin />
       <FaXTwitter />
@@ -21,6 +22,7 @@ export default function Footer() {
       <FaPhone />
       <FaInstagram />
       <FaTiktok />
+      <FaBars />
     </div>
   );
 }
