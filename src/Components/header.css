@@ -1,0 +1,14 @@
+.header-component {
+  background-color: rgb(24, 24, 121);
+  height: 80px;
+  width: 100%;
+}
+.header-unordered-list {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  list-style: none;
+  gap: 4rem;
+  margin-right: 150px;
+  padding: 30px;
+}
