@@ -1,6 +1,7 @@
 import AnimateRoute from "./Components/AnimateRoute";
 import Header from "./Components/Header";
 import { BrowserRouter as Router } from "react-router-dom";
+import Footer from "./Pages/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <AnimateRoute />
       </Router>
+      <Footer />
     </div>
   );
 }

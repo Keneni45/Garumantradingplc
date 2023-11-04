@@ -1,5 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function Service() {
-  return <div>hello world</div>;
+  return (
+    <motion.div
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}>
+      hello world
+    </motion.div>
+  );
 }
