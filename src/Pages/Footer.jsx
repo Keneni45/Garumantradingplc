@@ -6,6 +6,8 @@ import {
   FaWhatsapp,
   FaTelegram,
   FaPhone,
+  FaInstagram,
+  FaTiktok,
 } from "react-icons/fa6";
 
 export default function Footer() {
@@ -17,6 +19,8 @@ export default function Footer() {
       <FaWhatsapp />
       <FaTelegram />
       <FaPhone />
+      <FaInstagram />
+      <FaTiktok />
     </div>
   );
 }
