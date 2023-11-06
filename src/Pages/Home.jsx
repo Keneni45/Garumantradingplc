@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import bg from "../assets/bg.jpg";
-import "./page.css";
 
 export default function Home() {
   return (
@@ -12,10 +11,17 @@ export default function Home() {
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}>
       <div className="home-p">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-        voluptas eligendi ab assumenda dolores, dicta molestiae nostrum
-        praesentium perspiciatis, corrupti voluptates illum esse, molestias
-        deleniti aspernatur sed rem eaque soluta?hhh
+        Text Placeholder
+        <p>
+          Garuman Trading PLC is founded in 2018 by four visionary interpreneur
+          from different perspective background of business and economic.
+          currently working in export/import, metallic minerals and pulse and
+          oil seed.
+        </p>
+        <p>
+          Garuman Trading PLC is founded in 2018 by four visionary interpreneur
+          from different perspective background of business and economic
+        </p>
       </div>
     </motion.div>
   );

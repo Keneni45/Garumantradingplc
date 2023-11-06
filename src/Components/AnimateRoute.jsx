@@ -13,7 +13,7 @@ export default function AnimateRoute() {
     <div>
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-          <Route path="/home" element={<Home />}></Route>
+          <Route path="/*" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/service" element={<Service />}></Route>
