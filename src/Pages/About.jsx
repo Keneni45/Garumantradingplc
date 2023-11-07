@@ -61,11 +61,11 @@ export default function About() {
           <img
             src={lithium}
             alt=""
-            style={{ width: "100px", height: "100px", marginLeft: "300px" }}
+            style={{ width: "100px", height: "100px", marginLeft: "200px" }}
           />
         </div>
         <div>
-          <p style={{ marginLeft: "300px", marginRight: "300px" }}>
+          <p style={{ marginLeft: "200px", marginRight: "200px" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
             eveniet officia dolorem quaerat, eius odio nam voluptate repudiandae
             dicta debitis accusantium deleniti ducimus quis? Dignissimos illum
