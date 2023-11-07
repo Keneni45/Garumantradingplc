@@ -44,7 +44,7 @@ export default function About() {
           />
         </div>
         <div>
-          <p style={{ marginLeft: "400px", marginRight: "400px" }}>
+          <p style={{ marginLeft: "300px", marginRight: "300px" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
             eveniet officia dolorem quaerat, eius odio nam voluptate repudiandae
             dicta debitis accusantium deleniti ducimus quis? Dignissimos illum
@@ -65,7 +65,7 @@ export default function About() {
           />
         </div>
         <div>
-          <p style={{ marginLeft: "400px", marginRight: "400px" }}>
+          <p style={{ marginLeft: "300px", marginRight: "300px" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
             eveniet officia dolorem quaerat, eius odio nam voluptate repudiandae
             dicta debitis accusantium deleniti ducimus quis? Dignissimos illum
