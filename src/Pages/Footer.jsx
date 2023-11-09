@@ -1,4 +1,5 @@
 import React from "react";
+import "./footer.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -7,8 +8,6 @@ import {
   FaTelegram,
   FaPhone,
   FaInstagram,
-  FaTiktok,
-  FaBars,
   FaVoicemail,
 } from "react-icons/fa6";
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import bg from "../assets/bg.jpg";
+import "./home.css";
 
 export default function Home() {
   return (

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import bgr from "../assets/bgr.jpg";
+import "./contact.css";
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",

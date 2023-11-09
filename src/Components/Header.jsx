@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
 import garuman from "../assets/garuman.jpg";
+import "./header.css";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

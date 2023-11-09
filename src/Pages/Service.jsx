@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import coffee from "../assets/coffeeCup.jpg";
 import lithium from "../assets/lithium.jpg";
 import pulse from "../assets/pulse.jpg";
+import "./service.css";
 export default function Service() {
   return (
     <motion.div
